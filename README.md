@@ -79,7 +79,7 @@ To execute the code and reproduce the results, follow these detailed steps:
          (or install packages individually as listed above).
 
    4. **Verify Data Files:**
-      - Confirm that `marketing_campaign.csv` is located in the same directory as `main.py`.
+      - Confirm that `marketing_campaign.csv` and `spotify-2023.csv` are located in the same directory as `main.py`.
 
    5. **Run the Script:**
       - Execute the main Python script:
