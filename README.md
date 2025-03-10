@@ -1,6 +1,6 @@
-===========================================================================
+
 Assignment 1 – Code and Data Reproducibility Instructions
-===========================================================================
+
 
 Overview:
 -----------
@@ -105,6 +105,6 @@ Additional Notes:
    - If any issues or discrepancies are encountered during execution, please review the commit history and inline documentation or contact the repository maintainer for further clarification.
    - This repository has been designed with reproducibility in mind (RANDOM_SEED=42); every effort has been made to ensure that following these instructions will yield the same results as those reported in the assignment.
 
-===========================================================================
+
 End of README.txt
-===========================================================================
+
