@@ -1,5 +1,5 @@
 ---------------------------------------------------------
-Assignment 1 – Code and Data Reproducibility Instructions
+Code and Data Reproducibility Instructions
 ---------------------------------------------------------
 
 Overview:
