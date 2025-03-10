@@ -1,10 +1,10 @@
-
+---------------------------------------------------------
 Assignment 1 – Code and Data Reproducibility Instructions
-
+---------------------------------------------------------
 
 Overview:
 -----------
-This repository contains the implementation for Assignment 1 of CS-7641 (Spring 2025). The primary script, `main.py`, orchestrates data preprocessing, model training (using KNN, SVM, and a Neural Network), hyperparameter optimization (via RandomizedSearchCV and Optuna), and evaluation. Two CSV data files—`marketing_campaign.csv` and `spotify-2023.csv`—are required inputs and must be placed in the same directory as `main.py`. Although the instructions below are geared toward ensuring reproducibility on a standard Linux machine, they are equally applicable on Windows with minor adjustments (e.g., virtual environment activation commands).
+This repository contains the implementation for KNN, SVM & NN algorithms on two datasets. The primary script, `main.py`, orchestrates data preprocessing, model training (using KNN, SVM, and a Neural Network), hyperparameter optimization (via RandomizedSearchCV and Optuna), and evaluation. Two CSV data files—`marketing_campaign.csv` and `spotify-2023.csv`—are required inputs and must be placed in the same directory as `main.py`. Although the instructions below are geared toward ensuring reproducibility on a standard Linux machine, they are equally applicable on Windows with minor adjustments (e.g., virtual environment activation commands).
 
 Directory Structure:
 -----------------------
@@ -63,9 +63,7 @@ To execute the code and reproduce the results, follow these detailed steps:
    1. **Clone the Repository:**
       - Open a command prompt (on Windows) or terminal (on Linux).
       - Run:
-            git clone https://github.gatech.edu/gt-omscs-ml/cs-7641-2025-spring-nliddawi3.git
-      - Navigate to the `Assignment-1` folder:
-            cd cs-7641-2025-spring-nliddawi3/Assignment-1
+            git clone https://github.com/NaderLiddawi/Supervised-Learning-for-KNN-SVM-NN.git
 
    2. **Set Up the Python Environment:**
       - Create a virtual environment:
@@ -81,7 +79,7 @@ To execute the code and reproduce the results, follow these detailed steps:
          (or install packages individually as listed above).
 
    4. **Verify Data Files:**
-      - Confirm that `marketing_campaign.csv` and `spotify-2023.csv` are located in the same directory as `main.py`.
+      - Confirm that `marketing_campaign.csv` is located in the same directory as `main.py`.
 
    5. **Run the Script:**
       - Execute the main Python script:
@@ -100,11 +98,11 @@ Please find the research report that analyzes the results produced by the code i
 
 Additional Notes:
 --------------------
-   - The code includes comprehensive inline comments and detailed documentation to guide evaluators through each computational step.
+   - The code includes inline comments and detailed documentation to guide evaluators through each computational step.
    - The output from hyperparameter searches, learning curves, and validation curves is saved in the `results` directory.
    - If any issues or discrepancies are encountered during execution, please review the commit history and inline documentation or contact the repository maintainer for further clarification.
    - This repository has been designed with reproducibility in mind (RANDOM_SEED=42); every effort has been made to ensure that following these instructions will yield the same results as those reported in the assignment.
 
-
+-----------------
 End of README.txt
-
+-----------------
